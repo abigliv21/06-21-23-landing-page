@@ -30,12 +30,6 @@ body {
     display: flex;
 }
 
-.left-items {
-    /* display: flex;
-    flex-direction: column;
-    gap: 16px; */
-}
-
 .li-text {
     display: flex;
     flex-direction: column;
@@ -65,4 +59,42 @@ button {
 img {
     width: 50%;
     padding-left: 72px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 32px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.box {
+    height: 144px;
+    width: 144px;
+    border: 2px solid #3882f6;
+}
+
+.text {
+    width: 144px;
+    text-align: center;
 }
