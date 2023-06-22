@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    padding: 8px 96px;
+    background: #1F2937;
+    margin: 0;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-right-links {
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-main {
+    background: #1F2937;
+    padding: 72px 96px;
+    display: flex;
+}
+
+.left-items {
+    /* display: flex;
+    flex-direction: column;
+    gap: 16px; */
+}
+
+.li-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hm-one {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hm-two {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 8px 16px;
+    flex-grow: 0;
+    margin-top: 16px;
+}
+
+img {
+    width: 50%;
+    padding-left: 72px;
+}
