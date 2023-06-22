@@ -64,7 +64,8 @@ img {
 .information {
     display: flex;
     flex-direction: column;
-    margin: 32px;
+    margin-top: 32px;
+    margin-bottom: 128px;
 }
 
 .info-header {
@@ -97,4 +98,26 @@ img {
 .text {
     width: 144px;
     text-align: center;
+}
+
+.quote-sect {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 128px 25%;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    font-size: 28px;
+    color: #1F2937;
+    font-weight: bold;
+    margin: 8px;
 }
