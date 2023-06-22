@@ -54,6 +54,7 @@ button {
     padding: 8px 16px;
     flex-grow: 0;
     margin-top: 16px;
+    border-radius: 10px;
 }
 
 img {
@@ -120,4 +121,33 @@ img {
     color: #1F2937;
     font-weight: bold;
     margin: 8px;
+}
+
+.cta {
+    margin: 128px 20%;
+    background: #3882f6;
+    color: #F9FAF8;
+    padding: 36px 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-one {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.cta-two {
+    font-weight: 700;
+}
+
+.ctabutton {
+    border: 2px solid #F9FAF8;
 }
